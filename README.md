@@ -68,7 +68,6 @@ Useful VS Code extensions for this project:
 code --install-extension antyos.openscad                      # preview .scad files in OpenSCAD
 code --install-extension leathong.openscad-language-support   # OpenSCAD syntax and autocomplete
 code --install-extension ms-vscode.cpptools                   # C/C++ editing for the .ino sketches
-code --install-extension davidanson.vscode-markdownlint       # tidy README edits
 ```
 
 ## Repo layout
