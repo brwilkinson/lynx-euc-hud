@@ -2,7 +2,7 @@
 
 A small heads-up display for the **Lynx electric unicycle (EUC)**, built on a **LilyGO T-Display AMOLED (ESP32-S3)**. The ESP32 connects to the wheel over **Bluetooth Low Energy**, reads live speed and PWM (how hard the motor is working), and shows them on the AMOLED screen. It mounts under the helmet's visor peak with GoPro-style parts.
 
-<img src="photos/hud_live.png" width="360" alt="Lynx HUD showing live data">
+<img src="photos/hud_live.png" width="360" alt="Lynx HUD showing live data"> <img src="photos/bench_boards.jpg" width="440" alt="LilyGO AMOLED board and XIAO bench setup">
 
 | On the helmet | Under the visor peak | Case and battery | Case close-up |
 |---|---|---|---|
