@@ -1,0 +1,2 @@
+# private per-device settings
+firmware/**/config.h
