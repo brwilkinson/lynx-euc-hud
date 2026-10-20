@@ -46,7 +46,30 @@ Tip: click any `.stl` file in `3d-print/stl` to rotate it in GitHub's 3D viewer.
 - [OpenSCAD](https://openscad.org/), to edit the case and mount designs (`.scad`) and export STLs
 - [PrusaSlicer](https://www.prusa3d.com/page/prusaslicer_424/), to slice the STLs (printed on an Original Prusa i3 MK3S+)
 - [nRF Connect](https://www.nordicsemi.com/Products/Development-tools/nRF-Connect-for-mobile), a phone app for finding your wheel's Bluetooth address
+- [VS Code](https://code.visualstudio.com/), optional, for editing the sketches, `.scad` files and README
 - [GitHub CLI](https://cli.github.com/) (`gh`), optional, for cloning and managing the repo
+
+### Quick install (Windows)
+
+All of these package IDs were checked with `winget show`:
+
+```powershell
+winget install -e --id ArduinoSA.IDE.stable
+winget install -e --id OpenSCAD.OpenSCAD
+winget install -e --id Prusa3D.PrusaSlicer
+winget install -e --id Microsoft.VisualStudioCode
+winget install -e --id Git.Git
+winget install -e --id GitHub.cli
+```
+
+Useful VS Code extensions for this project:
+
+```powershell
+code --install-extension antyos.openscad                      # preview .scad files in OpenSCAD
+code --install-extension leathong.openscad-language-support   # OpenSCAD syntax and autocomplete
+code --install-extension ms-vscode.cpptools                   # C/C++ editing for the .ino sketches
+code --install-extension davidanson.vscode-markdownlint       # tidy README edits
+```
 
 ## Repo layout
 
